@@ -17,3 +17,46 @@ html body{
     font-weight: bold;
     font-size: 3rem;
 }
+.div3 {
+    justify-content: center;
+    display: flex;
+    font-size: 1cm;
+    margin-top: 3rem;
+    gap: 2cm;
+    #Recherche {
+        border-radius: 4px;
+        outline: none;
+    }
+}
+#box {
+    display: flex;
+    justify-content: center;
+    gap: 3cm;
+    #img{
+        height:150px ;
+        width: 100%;
+    }
+    #card {
+        width: 200px;
+        height:260px;
+        border-radius: 12px;
+        overflow: hidden;
+        border: 2px solid red;
+        background-color: black;
+        color: purple;
+        .text {    border: 2px solid red;
+            width: 50px ;
+            border-radius: 1rem;
+}
+       
+    }
+}
+
+@media (max-width: 768px) {
+    #box {
+        margin-top: 2cm;
+        flex-direction: column;
+        align-items: center;
+        gap: 2cm;
+    }
+}
